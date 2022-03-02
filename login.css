@@ -108,38 +108,12 @@ h1{
   margin: 0;
 }
 
-/*.mainb{
-  
-    display: flex;
-    flex-direction: column;
-}
 
- .body1{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    justify-content: center;
- 
-    height: 25vh;
-}
-.body2{
-    text-align: center;
-    height: 39vh;
-    justify-content: center;
-}
-.body3{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    height: 30vh;
-    padding-top: 32%;
-} */
 .btnlog{
     background: #6628F9;
 border-radius: 8px;
 border: none;
-padding: 6px 74px;
+padding: 9px 120px;
 font-family: Roboto;
 font-style: normal;
 font-weight: 800;
@@ -151,13 +125,14 @@ color: #FFFFFF;
 }
 .mainc{
     display: grid;
-    height: 92vh;
+    height: 100vh;
     grid: 33% /100%;
 }
 
 .cont1{
 justify-content: center;
 text-align: center;
+color: white;
 }
 .cont2{
     justify-content: center;
@@ -170,4 +145,43 @@ text-align: center;
         left: 0%;
         justify-content: center;
         text-align: center;
+        }
+
+
+        .per{
+            font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 55px;
+line-height: 43px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+        }
+
+        span{
+            font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 55px;
+line-height: 43px;
+/* identical to box height */
+
+
+color: #50C878;
+        }
+
+        .signuptext{
+            font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+
+
+/* identical to box height */
+
+
+color: white;
+
         }
