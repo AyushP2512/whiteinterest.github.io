@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) { */
     body{
-        background: #6190E8;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        /* background: #6190E8;  
+        background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);   
+        background: linear-gradient(to right, #A7BFE8, #6190E8); */
         
+        background: linear-gradient(180deg, #0F2027 0%, #141E30 0.01%, #243B55 100%);
     }
     .main{
         /* margin-top: 30px; */
@@ -81,4 +82,92 @@
        border: 2px solid black;
         color: red;
     }
-  }
+  
+
+    /*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;800&display=swap");
+/*===== VARIABLES CSS =====*/
+:root{
+  /*===== Colores =====*/
+  --first-color: #1A73E8;
+  --input-color: #80868B;
+  --border-color: #DADCE0;
+
+  /*===== Fuente y tipografia =====*/
+  --body-font: 'Roboto', sans-serif;
+  --normal-font-size: 1rem;
+  --small-font-size: .75rem;
+}
+  
+/*===== BASE =====*/
+*,::before,::after{
+  box-sizing: border-box;
+}
+
+h1{
+  margin: 0;
+}
+
+/*.mainb{
+  
+    display: flex;
+    flex-direction: column;
+}
+
+ .body1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+ 
+    height: 25vh;
+}
+.body2{
+    text-align: center;
+    height: 39vh;
+    justify-content: center;
+}
+.body3{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    padding-top: 32%;
+} */
+.btnlog{
+    background: #6628F9;
+border-radius: 8px;
+border: none;
+padding: 6px 74px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+/* line-height: 21px; */
+/* identical to box height */
+color: #FFFFFF;
+
+}
+.mainc{
+    display: grid;
+    height: 92vh;
+    grid: 33% /100%;
+}
+
+.cont1{
+justify-content: center;
+text-align: center;
+}
+.cont2{
+    justify-content: center;
+    text-align: center;
+    }
+    .cont3{
+        position:absolute;                 
+        bottom: 3%;
+        right: 0%;
+        left: 0%;
+        justify-content: center;
+        text-align: center;
+        }
