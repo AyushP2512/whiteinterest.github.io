@@ -44,7 +44,10 @@
                         <a class="nav-link" href="">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">SignUP</a>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Click Here To Login
+                        </button>
                     </li>
                 </ul>
             </div>
@@ -71,9 +74,9 @@
     </div> -->
 
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-       Click Here To Login
-    </button>
+    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Click Here To Login
+    </button> -->
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -117,6 +120,50 @@
 
         </div>
     </div>
+    </div>
+
+    <!-- Here begins the content of page-->
+    <!-- <div class="mainb">
+        <div class="body1">
+            <p>Earn<span id="per">18%</span></p>
+            <p>Return per Annum</p>
+        </div>
+        <div class="body2">
+            <img src="asset/debitcard.png" width="55%" alt="">
+        </div>
+        
+            <div class="body3">
+                <div class="btnclass">
+                    <button class="btnlog">Login</button>
+                </div>
+                <div class="signuptext">Don’t have an account ? <a href="">Signup</a> </div>
+            </div>
+        
+       
+    </div> -->
+
+    <div class="mainc">
+        <div class="cont1">
+            <p>Earn<span id="per">18%</span></p>
+            <p>Return per Annum</p>
+        </div>
+        <div class="cont2">
+            <img src="asset/debitcard.png" width="55%" alt="">
+        </div>
+        
+            <div class="cont3">
+                <div class="btnclass">
+                    <button class="btnlog" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
+                </div>
+                <div class="signuptext" style="margin-top: 2%;">Don’t have an account ? <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="link" href="">Signup</a> </div>
+            </div>
+    </div>
+
+
+
+
+
+
     </div>
 </body>
 
