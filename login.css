@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 /* @media only screen and (max-width: 600px) { */
     body{
         /* background: #6190E8;  
@@ -13,47 +12,89 @@
         /* background: #6190E8;  
         background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8); 
         background: linear-gradient(to right, #A7BFE8, #6190E8); */
-        border-radius:15px;
+        border-radius:30px;
         background-color: #485c75;
+    }
+    .modal-content{
+        border: 1px solid rgba(0,0,0);
     }
     .logincard{
         display: flex;
         flex-direction: column;
         align-items: center;
-      background-color: white;
-        border-radius:15px ;
+      background-color: black;
+        border-radius:30px ;
         /* margin:0px 12% ; */
         padding-bottom: 100px;
     }
     .topdes{
-        background-color: #485c75;
+        background-color: #c4c4c4;
         width: 100%;
-        height: 70px;
+        height: 65px;
         text-align: center;
+        justify-content: center;
         color: white;
-        border-radius: 10px 10px 0px 0px;
+        border-radius: 28px 28px 0px 0px;
+        align-items: center;
+        text-align: center;
     }
-    p{
-        font-weight: 300;
-        font-family: poppins;
+    .twobtn{
+        display: flex;
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 10%;
+        margin-top: 11px;
+        height: 70%;
+        border-radius: 7px;
+        background: #2D2D2D;
+    }
+    
+    .btntop{
+    border: none;
+    background: #907DFF;
+    border-radius: 7px;
+    color: white;
+    margin: 7px 0px 7px 0px;
+    padding: 0px 15%;
+    font-size: 20px;
+    }
+    .btntop2{
+        border: none;
+        background: #2D2D2D;
+        color: white;
+        font-size: 20px;
+    }
+    label{
+        color: white;
     }
     input[type=text]{
         border: none;
-        background-color: #f4f4f4;
-        border-radius: 7px 7px 0px 0px;
+        background-color: #2D2D2D;
+        border-radius: 7px ;
         height: 50px;
         width: 88%;
+        color: white;
         padding-left: 20px;
-
+    
+    }
+    
+    .logincred{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10%;
+        width: 90%;
     }
     input[type=password]{
         border: none;
-        background-color: #f4f4f4;
-        border-radius: 0px 0px 7px 7px ;
+        color: white;
+        background-color: #2D2D2D;
+        border-radius: 7px ;
         height: 50px;
         width: 88%;
         padding-left: 20px;
-
+    
     }
     .cred{
         margin-top: 24px;
@@ -67,10 +108,16 @@
         margin-top: 25px;
         border: none;
         
-        font-weight: bold   ;
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.085em;
+    
         border-radius: 50px;
-        padding: 5px 75px;
-        background-color: green;
+        padding: 3% 20%;
+        background-color: #907DFF;
         color: white;
     }
     .btnclose{
@@ -81,8 +128,9 @@
         border-radius: 50px;
         padding: 5px 75px;
        border: 2px solid black;
-        color: red;
+        color: rgb(0, 0, 0);
     }
+    
   
 
     /*===== GOOGLE FONTS =====*/
@@ -178,6 +226,12 @@ color: #50C878;
             font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
+
+
+/* identical to box height */
+
+
 color: white;
 
         }
+     
