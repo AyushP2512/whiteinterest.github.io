@@ -20,66 +20,10 @@
 </head>
 
 <body>
-    <!-- #e3f2fd; color i would love to -->
 
-    <!-- NAvbar-->
+    <!-- Modal Login -->
 
-    <!-- <div class="container-fluid">
-        <nav class="navbar  navbar-expand-xl navbar-light" style="background-color: #f1f2f6;">
-            <a class="navbar-brand" href="">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="" width="30"
-                    height="24" class="d-inline-block align-text-top">
-                White Interest
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav ms-auto px-5 ">
-                    <li class="nav-item">
-                        <a class="nav-link" href="main.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
-                            Click Here To Login
-                        </button>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div> -->
-    <!-- Nav bar finished-->
-    <!-- <div class="main">
-        <div class="logincard">
-            <div class="topdes">
-                <br>
 
-                <p>We Guarantee Interest <b>Safely</b><i class="fa-solid fa-user-shield"></i></p>
-
-            </div>
-            <div class="cred">
-                <input type="text" placeholder="Username">
-                <input type="password" placeholder="Password">
-                <button class="btnlogin">Login</button>
-
-            </div>
-
-        </div>
-    </div>
-    </div> -->
-
-    <!-- Button trigger modal -->
-    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Click Here To Login
-    </button> -->
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -87,7 +31,7 @@
     margin-left: 7%;
     margin-right: 7%;
 ">
-            <div class="modal-content" style="border-radius:15px;">
+            <div class="modal-content" style="border-radius:32px;">
                 <!-- <div class="modal-header" style="background-color: #f1f2f6;">
           
           
@@ -102,16 +46,35 @@
                     <div class="main">
                         <div class="logincard">
                             <div class="topdes">
-                                <br>
+                                <div class="twobtn">
+                                    <button class="btntop">Login</button>
+                                    <button class="btntop2">Signup</button>
+                                </div>
 
-                                <p>We Guarantee Interest <b>Safely</b><i class="fa-solid fa-user-shield"></i></p>
+                               
                                 <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>  -->
 
                             </div>
                             <div class="cred">
-                                <input type="text" placeholder="Username">
-                                <input type="password" placeholder="Password">
+                                <div>
+                                    <p style="
+                                    font-size: 185%;
+                                    font-family: montserrat;
+                                    font-weight: 200;
+                                    color: white;
+                                    ">Welcome back !</p>
+                                </div>
+                                <div class="logincred">
+                                    <label for="username">Username</label>
+                                    <input id="username" type="text" >
+                                    <label  style="
+                                    margin-top: 15px;
+                                "for="password">Password</label>
+                                    <input id="password" type="password">
+                                </div>
+                                
                                 <button class="btnlogin">Login</button>
+                                <a class="passreset" href=""> Forgot Password ?</a>
                                 <button data-bs-dismiss="modal" aria-label="Close" class="btnclose">Cancel</button>
 
                             </div>
@@ -150,12 +113,6 @@
                     data-bs-target="#exampleModal" class="link" href="">Signup</a> </div>
         </div>
     </div>
-
-
-
-
-
-
     </div>
 </body>
 
